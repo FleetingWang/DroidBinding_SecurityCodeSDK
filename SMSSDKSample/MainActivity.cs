@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using Android.Preferences;
 using CN.Smssdk.Gui;
 using static Android.OS.Handler;
+using System.Collections;
 
 namespace SMSSDKSample
 {
@@ -326,9 +327,10 @@ namespace SMSSDKSample
                 // 解析注册结果
                 if (result == SMSSDK.ResultComplete)
                 {
-                    JavaDictionary<string, object> phoneMap =(JavaDictionary<string, object>)data;
+                    var phoneMap = (JavaDictionary)data;
                     string country = (string)phoneMap["country"];
                     string phone = (string)phoneMap["phone"];
+
                     // 提交用户信息
                     Random rnd = new Random();
                     int id = rnd.Next();
