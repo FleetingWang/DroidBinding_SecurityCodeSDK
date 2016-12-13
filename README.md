@@ -1,1 +1,1 @@
-#DroidBinding_SecurityCodeSDK
+[mob 短信验证码SDK 2.0](http://sms.mob.com/)
