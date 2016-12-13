@@ -1,0 +1,13 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='cn.smssdk.gui']/class[@name='ContactEntry']/method[@name='setValue' and count(parameter)=1 and parameter[1][@type='java.util.HashMap&lt;java.lang.String, java.lang.Object&gt;']]/parameter[1]" name="type">Java.Lang.Object</attr>
+  <!--<attr path="/api/package[@name='cn.smssdk.gui']/class[@name='ContactEntry']/method[@name='setValue' and count(parameter)=1 and parameter[1][@type='Java.Lang.Object']]" name="managedReturn">Android.Runtime.JavaDictionary&lt;string, Java.Lang.Object&gt;</attr>-->
+  <!--<attr path="/api/package[@name='cn.smssdk.gui']/class[@name='CountryAdapter']/method[@name='getItem' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='cn.smssdk.gui']/class[@name='ContactsAdapter']/method[@name='getItem' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" name="managedReturn">Java.Lang.Object</attr>-->
+</metadata>
