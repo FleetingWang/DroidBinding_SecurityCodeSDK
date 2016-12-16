@@ -87,6 +87,10 @@
     <AndroidResource Include="Resources\layout\smssdk_set_appkey_dialog.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MobBaseLibsBinding\MobBaseLibsBinding.csproj">
+      <Project>{08ca8b82-bf78-4d14-b5c3-0cfe4985ea87}</Project>
+      <Name>MobBaseLibsBinding</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ShortMessageSDKGUIBinding\ShortMessageSDKGUIBinding.csproj">
       <Project>{2be24b51-98ae-48f1-a437-af3acfed9616}</Project>
       <Name>ShortMessageSDKGUIBinding</Name>

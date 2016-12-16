@@ -52,6 +52,10 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MobBaseLibsBinding\MobBaseLibsBinding.csproj">
+      <Project>{08ca8b82-bf78-4d14-b5c3-0cfe4985ea87}</Project>
+      <Name>MobBaseLibsBinding</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SMSSDKBinding\SMSSDKBinding.csproj">
       <Project>{1144d3a3-8257-41a2-bbbc-a88ed7692d73}</Project>
       <Name>SMSSDKBinding</Name>
